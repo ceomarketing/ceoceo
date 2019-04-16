@@ -1,0 +1,32 @@
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 120px;
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid #cccccc;
+	display: flex;
+	flex-direction: row;
+	padding: 0px 200px;
+}
+
+.copyright {
+	color: #8c8c8c;
+	flex: 3;
+	padding-top: 20px;
+}
+
+.copyright > .sm {
+	font-size: 14px;
+	line-height: 0.3;
+}
+
+.copyright > p {
+	text-align: left;
+}
+
+.socialMedia {
+	flex: 2;
+}
