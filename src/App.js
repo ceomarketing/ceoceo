@@ -28,6 +28,7 @@ class App extends Component {
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/about">About</NavLink></li>
                 <li><NavLink to="/people">People</NavLink></li>
+                  
                 <li><NavLink to="/programs">Programs</NavLink></li>
                 <li><NavLink to="/corporate">Corporate</NavLink></li> 
               </ul>
