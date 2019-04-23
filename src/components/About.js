@@ -5,6 +5,7 @@ class About extends Component {
     return (
       <div>
         <h2>ABOUT CEO</h2>
+        <h5>To build the best educational and communicational platform of entrepreneurship for all Chinese entrepreneurs and investors around the globe.</h5>
         <p>Mauris sem velit, vehicula eget sodales vitae,
         rhoncus eget sapien:</p>
         <ol>
