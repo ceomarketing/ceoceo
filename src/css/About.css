@@ -1,0 +1,52 @@
+#p1 {
+    font-weight: bold
+}
+.div {
+    display: block
+}
+.h1 {
+    font-weight: bold;
+    font-family: inherit;
+    line-height: 1.1;
+    color: #222;
+    margin-top: 0;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.col-sm-3 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.page-intro {
+    padding-bottom: 2em;
+    text-align: center;
+}
+.lead {
+    margin-bottom: .75em;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.body {
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #f7f7f7;
+}
+.page-title {
+    line-height: 1.1;
+    color: #222;
+    margin-top: 0;
+}
+.container-sm {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
