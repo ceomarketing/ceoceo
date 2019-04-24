@@ -1,0 +1,12 @@
+.carousel.slide {
+	height: 90vh;
+}
+
+.carousel .carousel-inner {
+	height: 90vh;
+}
+
+.carousel .carousel-item img {
+	width: 100%;
+	height: 90vh;
+}

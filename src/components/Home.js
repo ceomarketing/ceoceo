@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Carousel from 'react-bootstrap/Carousel';
+import '../css/home.css';
  
 class Home extends Component {
   constructor(props, context) {
@@ -32,12 +33,23 @@ class Home extends Component {
         >
           <Carousel.Item>
             <img
-              className="d-block w-100"
-              src="/public/images/placeholders/home-1.jpg"
+              className="d-block"
+              src="images/placeholders/home-1.jpg"
               alt="First slide"
             />
             <Carousel.Caption>
               <h3>First slide label</h3>
+              <p>We empower and connect entrepreneurs in China and Silicon Valley.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block"
+              src="images/placeholders/home-2.jpg"
+              alt="Second slide"
+            />
+            <Carousel.Caption>
+              <h3>Second slide label</h3>
               <p>We empower and connect entrepreneurs in China and Silicon Valley.</p>
             </Carousel.Caption>
           </Carousel.Item>
