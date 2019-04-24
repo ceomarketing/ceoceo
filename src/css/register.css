@@ -1,0 +1,11 @@
+
+.register {
+	padding: 0 200px;
+
+}
+
+@media only screen and (max-width: 992px) {
+  .register {
+    padding: 20px !important;
+  }
+}
