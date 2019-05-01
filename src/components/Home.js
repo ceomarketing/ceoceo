@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Carousel from 'react-bootstrap/Carousel';
+import data from './HomeCarouselData.js';
 import '../css/home.css';
  
 class Home extends Component {
@@ -31,28 +32,23 @@ class Home extends Component {
           direction={direction}
           onSelect={this.handleSelect}
         >
-          <Carousel.Item>
-            <img
-              className="d-block"
-              src="images/placeholders/home-1.jpg"
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>We empower and connect entrepreneurs in China and Silicon Valley.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block"
-              src="images/placeholders/home-2.jpg"
-              alt="Second slide"
-            />
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>We empower and connect entrepreneurs in China and Silicon Valley.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
+          {
+            data.map((itemData, index) => {
+              return (
+                <Carousel.Item key={index}>
+                  <img
+                    className="d-block"
+                    src={itemData.img_src}
+                    alt={"Slide" + index}
+                  />
+                  <Carousel.Caption>
+                    <h3>{itemData.caption}</h3>
+                    <p>{itemData.subtitle}</p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                );
+            })
+          }
         </Carousel>
       </div>
     );
