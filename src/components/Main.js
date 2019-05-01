@@ -71,8 +71,10 @@ class Main extends Component {
                     this.state.isLoggedIn? (
                       <Nav.Link className="myAccount">MY ACCOUNT</Nav.Link>
                     ) : (
-                      <Nav.Link className="login">LOGIN</Nav.Link>
-                      <Nav.Link className="register" href="#/register">REGISTER</Nav.Link>
+                      <div>
+                        <Nav.Link className="login">LOGIN</Nav.Link>
+                        <Nav.Link className="register" href="#/register">REGISTER</Nav.Link>
+                      </div>
                     )
                   }
                 </Nav>
