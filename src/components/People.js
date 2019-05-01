@@ -6,7 +6,7 @@ class People extends Component {
       <div className="section highlight">
         <div className="container">
               <div className="row about-organisers">
-                <div className="col-sm-3">
+                <div className="col-sm-3 col-md-">
                   <div className="organiser">
                     <div className="organiser_header">
                       <div className="img-wrapper">

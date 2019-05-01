@@ -33,30 +33,48 @@ class About extends Component {
                 Chinese Entrepreneurs Organization is not endorsed by, involved with or otherwise affiliated with Stanford University. Chinese Entrepreneurs Organization is an independent, non-profit organization that is unrelated to the activities or mission of Stanford University
               </p>
               <hr class="mv-3"></hr>
+              <h5>Join us</h5>
+              <p>
+                If you are passionate about promoting entrepreneurship and creating a supportive community for Chinese entrepreneurs in the valley and around the world.
+              </p>
             </div>
           </div>  
-
+          <hr class="mv-3"></hr>
           <div className="section">
             <div className="container-sm">
               <h2>Our Sponsors</h2>
               <div className="row">
-                <div className="img-wrapper">
-                  <img src="" alt="ZhenFund" width="90%"></img>
+                <div className="column col-sm-3">
+                  <div className="img-wrapper">
+                    <img src={'images/sponsor_6.png'} alt="ZhenFund" width="90%"></img>
+                  </div>
+                </div>
+                <div className="column col-sm-3">
+                  <div className="img-wrapper">
+                    <img src={'images/sponsor_2.png'} alt="Sequoia" width="90%"></img>
+                  </div>
+                </div>
+                <div className="column col-sm-3">
+                  <div className="img-wrapper">
+                    <img src={'images/sponsor_3.png'} alt="GGV" width="90%"></img>
+                  </div>
+                </div>
+                <div className="column col-sm-3">
+                  <div className="img-wrapper">
+                    <img src={'images/sponsor_4.png'} alt="Fenwick" width="90%"></img>
+                  </div>
+                </div>
+                <div className="column col-sm-3">
+                  <div className="img-wrapper">
+                    <img src={'images/sponsor_1.png'} alt="GSR" width="90%"></img>
+                  </div>
+                </div>
+                <div className="column col-sm-3">
+                  <div className="img-wrapper">
+                    <img src={'images/sponsor_5.png'} alt="BAI" width="90%"></img>
+                  </div>
                 </div>
               </div>
-              <div className="row"></div>
-              <div className="row">
-                <div className="img-wrapper">
-                  <img src="" alt="Fenwick" width="90%"></img>
-                </div>
-              </div>
-              <div className="row"></div>
-              <div className="row">
-                <div className="img-wrapper">
-                  <img src="" alt="GSR" width="90%"></img>
-                </div>
-              </div>
-              <div className="row"></div>
             </div>
           </div> 
         </div>
