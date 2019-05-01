@@ -4,54 +4,20 @@ import '../css/About.css';
 class About extends Component {
   render() {
     return (
-      <div class="container-sm">
-        <div class="page-intro">
-          <div class="container">
-          <h1 class="page-title">华人创业者协会</h1>
-          <h1 class="page-title">Chinese Entrepreneur Organziation</h1>
-          <p class="lead">
+      <div className="container-sm">
+        <div className="page-intro">
+          <div className="container">
+          <h1 className="page-title">华人创业者协会</h1>
+          <h1 className="page-title">Chinese Entrepreneur Organziation</h1>
+          <p className="lead">
            CEO organizes in-depth small-group entrepreneurial talks, brainstorm sessions, etc.
           </p>
           </div>  
         </div>
 
-        <div class="page-content">
-          {/* <div class="section highlight">
-            <div class="container">
-              <div class="row about-organisers">
-                <div class="col-sm-3">
-                  <div class="organiser">
-                    <div class="organiser_header">
-                      <div class="img-wrapper">
-                        <img src="" alt="CEO leaders - XXX" width="80" height="80" class="img-circle"></img>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="organiser">
-                    <div class="organiser_header">
-                      <div class="img-wrapper">
-                        <img src="" alt="CEO leaders - XXX" width="80" height="80" class="img-circle"></img>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-3">
-                  <div class="organiser">
-                    <div class="organiser_header">
-                      <div class="img-wrapper">
-                        <img src="" alt="CEO leaders - XXX" width="80" height="80" class="img-circle"></img>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
-          
-          <div class="section">
-            <div class="container-sm">
+        <div className="page-content">       
+          <div className="section">
+            <div className="container-sm">
               <h2>ABOUT CEO</h2>
               <h5 id='p1'>To build the best educational and communicational platform of entrepreneurship for all Chinese entrepreneurs and investors around the globe.</h5>
               <p>
@@ -67,30 +33,48 @@ class About extends Component {
                 Chinese Entrepreneurs Organization is not endorsed by, involved with or otherwise affiliated with Stanford University. Chinese Entrepreneurs Organization is an independent, non-profit organization that is unrelated to the activities or mission of Stanford University
               </p>
               <hr class="mv-3"></hr>
+              <h5>Join us</h5>
+              <p>
+                If you are passionate about promoting entrepreneurship and creating a supportive community for Chinese entrepreneurs in the valley and around the world.
+              </p>
             </div>
           </div>  
-
-          <div class="section">
-            <div class="container-sm">
+          <hr class="mv-3"></hr>
+          <div className="section">
+            <div className="container-sm">
               <h2>Our Sponsors</h2>
-              <div class="row">
-                <div class="img-wrapper">
-                  <img src="" alt="ZhenFund" width="90%"></img>
+              <div className="row">
+                <div className="column col-sm-3">
+                  <div className="img-wrapper">
+                    <img src={'images/sponsor_6.png'} alt="ZhenFund" width="90%"></img>
+                  </div>
+                </div>
+                <div className="column col-sm-3">
+                  <div className="img-wrapper">
+                    <img src={'images/sponsor_2.png'} alt="Sequoia" width="90%"></img>
+                  </div>
+                </div>
+                <div className="column col-sm-3">
+                  <div className="img-wrapper">
+                    <img src={'images/sponsor_3.png'} alt="GGV" width="90%"></img>
+                  </div>
+                </div>
+                <div className="column col-sm-3">
+                  <div className="img-wrapper">
+                    <img src={'images/sponsor_4.png'} alt="Fenwick" width="90%"></img>
+                  </div>
+                </div>
+                <div className="column col-sm-3">
+                  <div className="img-wrapper">
+                    <img src={'images/sponsor_1.png'} alt="GSR" width="90%"></img>
+                  </div>
+                </div>
+                <div className="column col-sm-3">
+                  <div className="img-wrapper">
+                    <img src={'images/sponsor_5.png'} alt="BAI" width="90%"></img>
+                  </div>
                 </div>
               </div>
-              <div class="row"></div>
-              <div class="row">
-                <div class="img-wrapper">
-                  <img src="" alt="Fenwick" width="90%"></img>
-                </div>
-              </div>
-              <div class="row"></div>
-              <div class="row">
-                <div class="img-wrapper">
-                  <img src="" alt="GSR" width="90%"></img>
-                </div>
-              </div>
-              <div class="row"></div>
             </div>
           </div> 
         </div>
