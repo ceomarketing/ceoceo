@@ -17,7 +17,7 @@ import Corporate from './Corporate';
 import Login from './Login';
 import Register from './Register';
 import Footer from './Footer';
-
+import MyAccount from './MyAccount';
 
 class Main extends Component {
   constructor() {
@@ -65,17 +65,19 @@ class Main extends Component {
                     <NavDropdown.Item href="#action/3.1">SPONSORS</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">INTEREST FORM</NavDropdown.Item>
                   </NavDropdown>
-                </Nav>
-                <Nav className="justify-content-end">
-                  {
-                    this.state.isLoggedIn? (
-                      <Nav.Link className="myAccount">MY ACCOUNT</Nav.Link>
-                    ) : (
-                      <Nav.Link className="login">LOGIN</Nav.Link>
-                      <Nav.Link className="register" href="#/register">REGISTER</Nav.Link>
-                    )
-                  }
-                </Nav>
+                </Nav>              
+                {
+                  this.state.isLoggedIn? (
+                    <Nav className="justify-content-end">
+                      <Nav.Link className="myAccount" href="#/myAccount">MY ACCOUNT</Nav.Link>
+                    </Nav>
+                  ) : (
+                  <Nav className="justify-content-end">
+                    <Nav.Link className="login">LOGIN</Nav.Link>
+                    <Nav.Link className="register" href="#/register">REGISTER</Nav.Link>
+                  </Nav>
+                  )
+                } 
               </Navbar.Collapse>
             </Navbar>
             </div>
@@ -85,7 +87,8 @@ class Main extends Component {
               <Route path="/people" component={People}/>
               <Route path="/programs" component={Programs}/>
               <Route path="/corporate" component={Corporate}/>
-              <Route path="/register" component={Register}/>              
+              <Route path="/register" component={Register}/>
+              <Route path="/myAccount" component={MyAccount}/>              
             </div>
             <Footer />
           </div>
