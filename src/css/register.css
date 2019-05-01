@@ -1,11 +1,69 @@
 
-.register {
-	padding: 0 200px;
+.registerContainer {
+	background-color: #f7f7f7;
+}
 
+.register {
+	margin: 0 200px;
+	padding: 20px;
+	background-color: white;
 }
 
 @media only screen and (max-width: 992px) {
-  .register {
-    padding: 20px !important;
-  }
+	.register {
+		margin: 0px !important;
+    	padding: 20px !important;
+  	}
+
+  	.submitButton {
+		justify-content:flex-start !important;
+	}
+
+	.registerInner {
+		width: 100% !important;
+	}
+}
+
+@media only screen and (max-width: 1140px) {
+	.register {
+		background-color: #f7f7f7;
+	}
+}
+
+.registerInner {
+	width: 700px;
+}
+
+.registerTitle {
+	color: var(--mainColor);
+	font-size: 40px;
+}
+
+.registerNote {
+	font-style: italic;
+	color: #404040;
+}
+
+.form-label {
+	color: #404040;
+}
+
+.submitButton {
+	margin-top: 50px;
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+}
+
+.submitButton > button {
+	background-color: var(--mainColor) !important;
+	border-color: var(--mainColor) !important;
+	/*font-size: 20px;*/
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+.submitButton > button:hover {
+	background-color: #811f18 !important;
+	border-color: #811f18 !important;
 }

@@ -1,8 +1,12 @@
+:root {
+  --mainColor: #a1271f;
+}
 
 .header {
   /*background-color: #111;*/
   padding: 0 200px;
   margin: 0;
+  border-bottom: 1px solid #cccccc;
 }
 
 @media only screen and (max-width: 992px) {
@@ -35,18 +39,18 @@
 }
 
 .dropdown-item:hover {
-  color: #a1271f !important;
+  color: var(--mainColor) !important;
   background-color: transparent !important;
 }
 
 .nav-link:hover {
-  color: #a1271f !important;
+  color: var(--mainColor) !important;
   cursor: pointer;
-  border-top: 4px solid #a1271f !important;
+  border-top: 4px solid var(--mainColor) !important;
 }
 
 a.nav-link.active:not(.register) {
-  color: #a1271f !important;
+  color: var(--mainColor) !important;
 }
 
 .register.active, .login.active {
@@ -54,8 +58,8 @@ a.nav-link.active:not(.register) {
 }
 
 .show > .nav-link {
-  color: #a1271f !important;
-  border-top: 4px solid #a1271f !important;
+  color: var(--mainColor) !important;
+  border-top: 4px solid var(--mainColor) !important;
 }
 
 .dropdown-toggle::after {

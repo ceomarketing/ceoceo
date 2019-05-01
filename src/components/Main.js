@@ -20,6 +20,13 @@ import Footer from './Footer';
 
 
 class Main extends Component {
+  constructor() {
+    super();
+    this.state = {
+      isLoggedIn: true
+    }
+  }
+
   render() {
     return (
         <HashRouter>
@@ -60,8 +67,14 @@ class Main extends Component {
                   </NavDropdown>
                 </Nav>
                 <Nav className="justify-content-end">
-                  <Nav.Link className="login">LOGIN</Nav.Link>
-                  <Nav.Link className="register" href="#/register">REGISTER</Nav.Link>
+                  {
+                    this.state.isLoggedIn? (
+                      <Nav.Link className="myAccount">MY ACCOUNT</Nav.Link>
+                    ) : (
+                      <Nav.Link className="login">LOGIN</Nav.Link>
+                      <Nav.Link className="register" href="#/register">REGISTER</Nav.Link>
+                    )
+                  }
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
