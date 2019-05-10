@@ -73,7 +73,7 @@ class Main extends Component {
                     </Nav>
                   ) : (
                   <Nav className="justify-content-end account">
-                    <Nav.Link className="login">LOGIN</Nav.Link>
+                    <Login />
                     <Nav.Link className="register" href="#/register">REGISTER</Nav.Link>
                   </Nav>
                   )
