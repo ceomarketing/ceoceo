@@ -1,0 +1,15 @@
+.navbar-nav > .login > .nav-link {
+	font-weight: bold;
+	margin: 0px 10px;
+	text-align: center;
+	border-top: 4px solid white;
+}
+
+.login-modal .modal-register {
+	font-weight: bold;
+	color: #963546;
+}
+
+.login-modal .modal-title {
+	margin: auto;
+}

@@ -60,7 +60,7 @@ class Main extends Component {
                   </NavDropdown>
                 </Nav>
                 <Nav className="justify-content-end">
-                  <Nav.Link className="login">LOGIN</Nav.Link>
+                  <Login />
                   <Nav.Link className="register" href="#/register">REGISTER</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
