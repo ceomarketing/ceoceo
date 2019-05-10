@@ -48,9 +48,9 @@ class Main extends Component {
                   <Nav.Link href="#/">HOME</Nav.Link>
                   <Nav.Link href="#/about">ABOUT</Nav.Link>
                   <NavDropdown title="PEOPLE" id="collasible-nav-dropdown">
-                    <NavDropdown.Item>EXECUTIVE TEAM</NavDropdown.Item>
-                    <NavDropdown.Item>GUESTS &#38; SPEAKERS</NavDropdown.Item>
-                    <NavDropdown.Item>COMMUNITY</NavDropdown.Item>
+                    <NavDropdown.Item href='#/people/#team-section'>EXECUTIVE TEAM</NavDropdown.Item>
+                    <NavDropdown.Item href='#/people/#guest-section'>GUESTS &#38; SPEAKERS</NavDropdown.Item>
+                    <NavDropdown.Item href='#/people/#community-section'>COMMUNITY</NavDropdown.Item>
                   </NavDropdown>
                   <NavDropdown title="PROGRAMS" id="collasible-nav-dropdown">
                     <NavDropdown.Item>SPEAKER SERIES</NavDropdown.Item>
