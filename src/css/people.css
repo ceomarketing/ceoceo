@@ -1,0 +1,51 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    color: #8c1515 !important;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+    
+}
+* {
+    box-sizing: border-box;
+}
+.col-sm-3 {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.img-wrapper {
+    width: 80px;
+    height: 80px;
+    float: left;
+    overflow: hidden;
+    margin-right: 9px;
+}
+.organiser {
+    margin: 0 auto;
+}
+div {
+    display: block
+}
+p {
+    margin: 0 0 9px;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
