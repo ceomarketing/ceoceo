@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import InputGroup from 'react-bootstrap/InputGroup';
-import Dropdown from 'react-bootstrap/Dropdown';
+import { Formik } from 'formik';
 
 class Register extends Component {
   render() {
@@ -182,7 +182,7 @@ class Register extends Component {
               <Form.Group>
                 <Form.Label>Would you like to stay connected with us through CEO Wechat Group? * (If yes, please scan the QR Code below to add CEO全能小助手 as your contact.)</Form.Label>
                 <Form.Check type="radio" label="Yes!" />
-                <img width="200" src="images/CEO小助手.jpeg" />
+                <img width="200" src="images/CEO小助手.jpeg" alt="CEO小助手啦啦啦" />
                 <Form.Check type="radio" label="Not Now" />
               </Form.Group>
 
@@ -194,7 +194,7 @@ class Register extends Component {
               <Form.Group>
                 <Form.Label>Follow CEO's Wechat account NOW!</Form.Label>
                 <div />
-                <img width="200" height="200" src="images/ceo-qr-code.png" />
+                <img width="200" height="200" src="images/ceo-qr-code.png" alt="在微信搜索CEO公众号😝" />
               </Form.Group>
 
               <Form.Group className="submitButton">

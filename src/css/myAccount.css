@@ -1,0 +1,67 @@
+
+
+.nav-item > .accountTab.nav-link {
+	color: rgba(0, 0, 0, 0.5);
+	padding-left: 40%;
+	font-size: 20px;
+}
+
+.nav-item > .accountTab.nav-link.active {
+	color: black;
+	font-weight: bold;
+	background-color: white;
+}
+
+.nav-item.accountNav {
+	margin-bottom: 10px;
+	height: 46px;
+}
+
+.accountRow {
+	background-color: var(--backgroundColor);	
+}
+
+.accountContent {
+	background-color: white;
+}
+
+.accountPills.col-sm-3 {
+	padding: 60px 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.updateButton {
+	margin-top: 50px;
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+}
+
+.updateButton > button {
+	background-color: var(--mainColor) !important;
+	border-color: var(--mainColor) !important;
+	/*font-size: 20px;*/
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+.updateButton > button:hover {
+	background-color: #811f18 !important;
+	border-color: #811f18 !important;
+}
+
+.myAccountTitle, .myEventsTitle {
+	color: var(--mainColor);
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+
+.myAccountTab {
+	margin: 50px;
+}
+
+.myEventsTab {
+	height: 100vh;
+	margin: 50px;
+}

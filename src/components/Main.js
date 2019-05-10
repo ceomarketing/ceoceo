@@ -23,7 +23,7 @@ class Main extends Component {
   constructor() {
     super();
     this.state = {
-      isLoggedIn: true
+      isLoggedIn: false
     }
   }
 
@@ -44,7 +44,7 @@ class Main extends Component {
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="mr-auto">
+                <Nav className="mr-auto mainNav">
                   <Nav.Link href="#/">HOME</Nav.Link>
                   <Nav.Link href="#/about">ABOUT</Nav.Link>
                   <NavDropdown title="PEOPLE" id="collasible-nav-dropdown">
@@ -68,11 +68,11 @@ class Main extends Component {
                 </Nav>              
                 {
                   this.state.isLoggedIn? (
-                    <Nav className="justify-content-end">
+                    <Nav className="justify-content-end account">
                       <Nav.Link className="myAccount" href="#/myAccount">MY ACCOUNT</Nav.Link>
                     </Nav>
                   ) : (
-                  <Nav className="justify-content-end">
+                  <Nav className="justify-content-end account">
                     <Nav.Link className="login">LOGIN</Nav.Link>
                     <Nav.Link className="register" href="#/register">REGISTER</Nav.Link>
                   </Nav>
