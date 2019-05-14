@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import '../css/people.css';
+import styles from './css/people.module.css';
 
 class People extends Component {
   render() {
