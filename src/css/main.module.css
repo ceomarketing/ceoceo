@@ -1,0 +1,76 @@
+
+
+.header {
+  /*background-color: #111;*/
+  padding: 0 200px;
+  margin: 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+@media only screen and (max-width: 992px) {
+  .header {
+    padding: 0 !important;
+  }
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+#responsive-navbar-nav {
+  width: 100%;
+}
+
+.navbar-nav.mainNav > .nav-link, .navbar-nav.account > .nav-link, .dropdown.nav-item > .nav-link {
+  color: rgba(0,0,0,.5);
+  font-weight: bold;
+  margin: 0px 10px;
+  text-align: center;
+  border-top: 4px solid white;
+}
+
+.dropdown-item {
+  color: rgba(0,0,0,.5);
+  font-weight: bold;
+  padding: 8px;
+  margin: 10px;
+}
+
+.dropdown-item:hover {
+  color: var(--mainColor) !important;
+  background-color: transparent !important;
+}
+
+.navbar-nav.mainNav > .nav-link:hover, .navbar-nav.account > .nav-link:hover, .navbar-nav.mainNav > .dropdown.nav-item > .nav-link:hover {
+  color: var(--mainColor) !important;
+  cursor: pointer;
+  border-top: 4px solid var(--mainColor) !important;
+}
+
+.account > a.nav-link.active:not(.register), .mainNav > a.nav-link.active:not(.register) {
+  color: var(--mainColor) !important;
+}
+
+.register.active, .login.active {
+  color: rgba(0,0,0,.5) !important;
+}
+
+.show > .nav-link {
+  color: var(--mainColor) !important;
+  border-top: 4px solid var(--mainColor) !important;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu {
+  border: none;
+  border-radius: 0px;
+  border-top: 1px solid #f2f2f2;
+  background-color: none;
+}
+/*
+.loginContainer {
+  display: inline;
+}*/
