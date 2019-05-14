@@ -8,6 +8,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../css/main.css';
+import s from '../css/main.module.css';
+import classNames from 'classnames';
 
 import Home from "./Home";
 import About from "./About";
@@ -31,8 +33,8 @@ class Main extends Component {
     return (
         <HashRouter>
           <div>
-            <div className="header">
-            <Navbar className="fullWidth" collapseOnSelect expand="lg">
+            <div className={s.header}>
+            <Navbar className={s.fullWidth} collapseOnSelect expand="lg">
               <Navbar.Brand href="#/">
                 <img
                   src="images/ceo_logo.png"
@@ -44,7 +46,7 @@ class Main extends Component {
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="mr-auto mainNav">
+                <Nav className={classNames("mr-auto", s.mainNav)}>
                   <Nav.Link href="#/">HOME</Nav.Link>
                   <Nav.Link href="#/about">ABOUT</Nav.Link>
                   <NavDropdown title="PEOPLE" id="collasible-nav-dropdown">
@@ -68,13 +70,13 @@ class Main extends Component {
                 </Nav>              
                 {
                   this.state.isLoggedIn? (
-                    <Nav className="justify-content-end account">
-                      <Nav.Link className="myAccount" href="#/myAccount">MY ACCOUNT</Nav.Link>
+                    <Nav className={classNames("justify-content-end", s.account)}>
+                      <Nav.Link className={s.myAccount} href="#/myAccount">MY ACCOUNT</Nav.Link>
                     </Nav>
                   ) : (
-                  <Nav className="justify-content-end account">
+                  <Nav className={classNames("justify-content-end", s.account)}>
                     <Login />
-                    <Nav.Link className="register" href="#/register">REGISTER</Nav.Link>
+                    <Nav.Link className={s.register} href="#/register">REGISTER</Nav.Link>
                   </Nav>
                   )
                 } 
