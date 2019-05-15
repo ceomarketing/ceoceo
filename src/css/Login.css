@@ -10,6 +10,57 @@
 	color: #963546;
 }
 
+.login-modal .modal-content {
+	border: white;
+	border-radius: 0.8rem;
+}
+
+.login-modal .modal-header {
+	border-bottom: white;
+}
+
+.login-modal .modal-body {
+	padding: 0rem 3rem;
+}
+
+.login-modal .modal-footer {
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-bottom: 2rem;
+	border-top: white;
+}
+
 .login-modal .modal-title {
 	margin: auto;
+}
+
+.login-modal .email-icon {
+	display: inline-block;
+	height: calc(1.5em + 0.75rem + 2px);
+}
+
+.login-modal .input-col {
+	padding-top: calc(0.375rem + 1px);
+	padding-bottom: calc(0.375rem + 1px);
+}
+
+.login-modal .login-btn {
+	background-color: #963546;
+	border-color: #963546;
+}
+
+.login-modal .login-btn:hover, .login-modal .login-btn:focus {
+	background-color: #c1495e;
+	border-color: #c1495e;
+}
+
+.login-modal .login-btn:not(:disabled):not(.disabled):active, .login-modal .login-btn:not(:disabled):not(.disabled).active,
+.show > .login-btn.dropdown-toggle {
+  	background-color: #963546;
+	border-color: #963546;
+}
+
+.login-modal .login-btn:not(:disabled):not(.disabled):active:focus, .login-modal .login-btn:not(:disabled):not(.disabled).active:focus,
+.show > .login-btn.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
