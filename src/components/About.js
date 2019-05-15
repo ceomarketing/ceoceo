@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import '../css/About.css';
+iimport styles from '../css/about.module.css';
  
 class About extends Component {
   render() {
     return (
-      <div className="container-sm">
+      <div className="container-sm about">
         <div className="page-intro">
           <div className="container">
           <h1 className="page-title">华人创业者协会</h1>
