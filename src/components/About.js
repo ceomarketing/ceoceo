@@ -1,23 +1,24 @@
 import React, { Component } from "react";
-import styles from '../css/about.module.css';
+import s from '../css/About.module.css';
+import classNames from 'classnames';
  
 class About extends Component {
   render() {
     return (
-      <div className="container-sm about">
-        <div className="page-intro">
-          <div className="container">
-          <h1 className="page-title">华人创业者协会</h1>
-          <h1 className="page-title">Chinese Entrepreneur Organziation</h1>
-          <p className="lead">
+      <div className={s.containersm}>
+        <div className={s.pageintro}>
+          <div className={s.container}>
+          <h1 className={s.pagetitle}>华人创业者协会</h1>
+          <h1 className={s.pagetitle}>Chinese Entrepreneur Organziation</h1>
+          <p className={s.lead}>
            CEO organizes in-depth small-group entrepreneurial talks, brainstorm sessions, etc.
           </p>
           </div>  
         </div>
 
-        <div className="page-content">       
-          <div className="section">
-            <div className="container-sm">
+        <div className={s.pagecontent}>       
+          <div className={s.section}>
+            <div className={s.containersm}>
               <h2>ABOUT CEO</h2>
               <h5 id='p1'>To build the best educational and communicational platform of entrepreneurship for all Chinese entrepreneurs and investors around the globe.</h5>
               <p>
@@ -32,45 +33,45 @@ class About extends Component {
               <p>
                 Chinese Entrepreneurs Organization is not endorsed by, involved with or otherwise affiliated with Stanford University. Chinese Entrepreneurs Organization is an independent, non-profit organization that is unrelated to the activities or mission of Stanford University
               </p>
-              <hr class="mv-3"></hr>
+              <hr class={s.mv-3}></hr>
               <h5>Join us</h5>
               <p>
                 If you are passionate about promoting entrepreneurship and creating a supportive community for Chinese entrepreneurs in the valley and around the world.
               </p>
             </div>
           </div>  
-          <hr class="mv-3"></hr>
-          <div className="section">
-            <div className="container-sm">
+          <hr className={s.mv-3}></hr>
+          <div className={s.section}>
+            <div className={s.containersm}>
               <h2>Our Sponsors</h2>
-              <div className="row">
-                <div className="column col-sm-3">
-                  <div className="img-wrapper">
+              <div className={s.row}>
+                <div className={classNames(s.column, s.colsmthree, "col-sm-3")}>
+                  <div className={s.imgwrapper}>
                     <img src={'images/sponsor_6.png'} alt="ZhenFund" width="90%"></img>
                   </div>
                 </div>
-                <div className="column col-sm-3">
-                  <div className="img-wrapper">
+                <div className={classNames(s.column, s.colsmthree, "col-sm-3")}>
+                  <div className={"img-wrapper"}>
                     <img src={'images/sponsor_2.png'} alt="Sequoia" width="90%"></img>
                   </div>
                 </div>
-                <div className="column col-sm-3">
-                  <div className="img-wrapper">
+                <div className={classNames(s.column, s.colsmthree, "col-sm-3")}>
+                  <div className={"img-wrapper"}>
                     <img src={'images/sponsor_3.png'} alt="GGV" width="90%"></img>
                   </div>
                 </div>
-                <div className="column col-sm-3">
-                  <div className="img-wrapper">
+                <div className={classNames(s.column, s.colsmthree, "col-sm-3")}>
+                  <div className={"img-wrapper"}>
                     <img src={'images/sponsor_4.png'} alt="Fenwick" width="90%"></img>
                   </div>
                 </div>
-                <div className="column col-sm-3">
-                  <div className="img-wrapper">
+                <div className={classNames(s.column, s.colsmthree, "col-sm-3")}>
+                  <div className={"img-wrapper"}>
                     <img src={'images/sponsor_1.png'} alt="GSR" width="90%"></img>
                   </div>
                 </div>
-                <div className="column col-sm-3">
-                  <div className="img-wrapper">
+                <div className={classNames(s.column, s.colsmthree, "col-sm-3")}>
+                  <div className={"img-wrapper"}>
                     <img src={'images/sponsor_5.png'} alt="BAI" width="90%"></img>
                   </div>
                 </div>

@@ -20,13 +20,13 @@ a {
 * {
     box-sizing: border-box;
 }
-.col-sm-3 {
+.colsmthree {
     position: relative;
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.img-wrapper {
+.imgwrapper {
     width: 80px;
     height: 80px;
     float: left;
