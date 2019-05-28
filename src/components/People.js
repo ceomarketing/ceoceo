@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import s from '../css/People.module.css';
+import s from '../css/people.module.css';
 import classNames from 'classnames';
 
 
