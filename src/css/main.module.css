@@ -21,30 +21,47 @@
   width: 100%;
 }
 
-.nav, .navDrop>a, .myAccount, .register {
-  color: rgba(0,0,0,.5) !important;
+.navbar-nav.mainNav > .nav-link, .navbar-nav.account > .nav-link, .dropdown.nav-item > .nav-link {
+  color: rgba(0,0,0,.5);
   font-weight: bold;
   margin: 0px 10px;
   text-align: center;
   border-top: 4px solid white;
 }
 
-.item {
-  color: rgba(0,0,0,.5) !important;
+.dropdown-item {
+  color: rgba(0,0,0,.5);
   font-weight: bold;
   padding: 8px;
   margin: 10px;
 }
 
-.item:hover {
+.dropdown-item:hover {
   color: var(--mainColor) !important;
   background-color: transparent !important;
 }
 
-.nav:hover, .navDrop>a:hover, .myAccount:hover, .register:hover {
+.navbar-nav.mainNav > .nav-link:hover, .navbar-nav.account > .nav-link:hover, .navbar-nav.mainNav > .dropdown.nav-item > .nav-link:hover {
   color: var(--mainColor) !important;
   cursor: pointer;
   border-top: 4px solid var(--mainColor) !important;
+}
+
+.account > a.nav-link.active:not(.register), .mainNav > a.nav-link.active:not(.register) {
+  color: var(--mainColor) !important;
+}
+
+.register.active, .login.active {
+  color: rgba(0,0,0,.5) !important;
+}
+
+.show > .nav-link {
+  color: var(--mainColor) !important;
+  border-top: 4px solid var(--mainColor) !important;
+}
+
+.dropdown-toggle::after {
+  display: none;
 }
 
 .dropdown-menu {

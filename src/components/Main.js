@@ -7,7 +7,7 @@ import {
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-// import '../css/main.css';
+import '../css/main.css';
 import s from '../css/main.module.css';
 import classNames from 'classnames';
 
@@ -47,25 +47,25 @@ class Main extends Component {
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className={classNames("mr-auto", s.mainNav)}>
-                  <Nav.Link className={s.nav} href="#/">HOME</Nav.Link>
-                  <Nav.Link className={s.nav} href="#/about">ABOUT</Nav.Link>
-                  <NavDropdown className={s.navDrop} title="PEOPLE" id="collasible-nav-dropdown">
-                    <NavDropdown.Item className={s.item} href='#/people/#team-section'>EXECUTIVE TEAM</NavDropdown.Item>
-                    <NavDropdown.Item className={s.item} href='#/people/#guest-section'>GUESTS &#38; SPEAKERS</NavDropdown.Item>
-                    <NavDropdown.Item className={s.item} href='#/people/#community-section'>COMMUNITY</NavDropdown.Item>
+                  <Nav.Link href="#/">HOME</Nav.Link>
+                  <Nav.Link href="#/about">ABOUT</Nav.Link>
+                  <NavDropdown title="PEOPLE" id="collasible-nav-dropdown">
+                    <NavDropdown.Item href='#/people/#team-section'>EXECUTIVE TEAM</NavDropdown.Item>
+                    <NavDropdown.Item href='#/people/#guest-section'>GUESTS &#38; SPEAKERS</NavDropdown.Item>
+                    <NavDropdown.Item href='#/people/#community-section'>COMMUNITY</NavDropdown.Item>
                   </NavDropdown>
-                  <NavDropdown className={s.navDrop} title="PROGRAMS" id="collasible-nav-dropdown">
-                    <NavDropdown.Item className={s.item}>SPEAKER SERIES</NavDropdown.Item>
-                    <NavDropdown.Item className={s.item}>INNOVATION MIXER</NavDropdown.Item>
-                    <NavDropdown.Item className={s.item}>SMALL GROUP DINNER</NavDropdown.Item>
-                    <NavDropdown.Item className={s.item}>FRIDAY HAPPY HOUR</NavDropdown.Item>
-                    <NavDropdown.Item className={s.item}>CHINA STARTUP TREK</NavDropdown.Item>
-                    <NavDropdown.Item className={s.item}>PITCH NIGHT</NavDropdown.Item>
-                    <NavDropdown.Item className={s.item}>FUTURE @ CEO</NavDropdown.Item>
+                  <NavDropdown title="PROGRAMS" id="collasible-nav-dropdown">
+                    <NavDropdown.Item>SPEAKER SERIES</NavDropdown.Item>
+                    <NavDropdown.Item>INNOVATION MIXER</NavDropdown.Item>
+                    <NavDropdown.Item>SMALL GROUP DINNER</NavDropdown.Item>
+                    <NavDropdown.Item>FRIDAY HAPPY HOUR</NavDropdown.Item>
+                    <NavDropdown.Item>CHINA STARTUP TREK</NavDropdown.Item>
+                    <NavDropdown.Item>PITCH NIGHT</NavDropdown.Item>
+                    <NavDropdown.Item>FUTURE @ CEO</NavDropdown.Item>
                   </NavDropdown>
-                  <NavDropdown className={s.navDrop} title="CORPORATE" id="collasible-nav-dropdown">
-                    <NavDropdown.Item className={s.item} href="#action/3.1">SPONSORS</NavDropdown.Item>
-                    <NavDropdown.Item className={s.item} href="#action/3.2">INTEREST FORM</NavDropdown.Item>
+                  <NavDropdown title="CORPORATE" id="collasible-nav-dropdown">
+                    <NavDropdown.Item href="#action/3.1">SPONSORS</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2">INTEREST FORM</NavDropdown.Item>
                   </NavDropdown>
                 </Nav>              
                 {

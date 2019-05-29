@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import s from '../css/people.module.css';
 import classNames from 'classnames';
 
-
 class People extends Component {
   render() {
     return (

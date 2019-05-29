@@ -46,17 +46,17 @@ class Login extends Component {
             <Form>
               <Form.Group as={Row} controlId="formPlaintextEmail">
                 <Form.Label column sm="2">
-                  <img src="images/envelope.png" className="email-icon" alt="email icon"/>
+                  Email
                 </Form.Label>
-                <Col className="input-col" sm="10">
+                <Col sm="10">
                   <Form.Control type="email" placeholder="Email Address" />
                 </Col>
               </Form.Group>
               <Form.Group as={Row} controlId="formPlaintextPassword">
                 <Form.Label column sm="2">
-                  <img src="images/padlock.png" className="email-icon" alt="password icon"/>
+                  Password
                 </Form.Label>
-                <Col className="input-col" sm="10">
+                <Col sm="10">
                   <Form.Control type="password" placeholder="Password" />
                 </Col>
               </Form.Group>
@@ -75,7 +75,7 @@ class Login extends Component {
             <Button variant="secondary" onClick={this.handleClose}>
               Cancel
             </Button>
-            <Button className="login-btn" bsClass="custom-btn" onClick={this.handleClose}>
+            <Button variant="primary" onClick={this.handleClose}>
               Login
             </Button>
           </Modal.Footer>
