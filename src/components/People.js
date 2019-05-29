@@ -30,7 +30,7 @@ class People extends Component {
                     <div className={s.organiser}>
                       <div className={s.organiserheader}>
                         <div className={s.imgwrapper}>
-                          <img src="./images/organiser-xty.jpg" alt="Co-President" width="80" height="80" className="img-circle"></img>
+                          <img src="./images/organiser-xty.jpg" alt="Co-President" width="80" height="80" className={classNames(s.imgcircle, s.peopleimg)}></img>
                         </div>
                         <div className={s.textwrapper}>
                           <h4 className={s.organiser_name}>
@@ -46,7 +46,7 @@ class People extends Component {
                     <div className={s.organiser}>
                       <div className={s.organiserheader}>
                         <div className={s.imgwrapper}>
-                          <img src="./images/organiser-april.jpg" alt="CEO leaders - XXX" width="80" height="80" className="img-circle"></img>
+                          <img src="./images/organiser-april.jpg" alt="CEO leaders - XXX" width="80" height="80" className={classNames(s.imgcircle, s.peopleimg)}></img>
                         </div>
                         <div className={s.textwrapper}>
                           <h4 className={s.organisername}>
@@ -65,7 +65,7 @@ class People extends Component {
                     <div className={s.organiser}>
                       <div className={s.organiserheader}>
                         <div className={s.imgwrapper}>
-                          <img src="./images/organiser-eric.jpg" alt="CFO" width="80" height="80" className="img-circle"></img>
+                          <img src="./images/organiser-eric.jpg" alt="CFO" width="80" height="80" className={classNames(s.imgcircle, s.peopleimg)}></img>
                         </div>
                         <div className={s.textwrapper}>
                           <h4 className={s.organisername}>
@@ -81,7 +81,7 @@ class People extends Component {
                     <div className={s.organiser}>
                       <div className={s.organiserheader}>
                         <div className={s.imgwrapper}>
-                          <img src="./images/organiser-alice.jpg" alt="VP(Marketing)" width="80" height="80" className="img-circle"></img>
+                          <img src="./images/organiser-alice.jpg" alt="VP(Marketing)" width="80" height="80" className={classNames(s.imgcircle, s.peopleimg)}></img>
                         </div>
                         <div className={s.textwrapper}>
                           <h4 className={s.organisername}>
@@ -97,7 +97,7 @@ class People extends Component {
                     <div className={s.organiser}>
                       <div className={s.organiserheader}>
                         <div className={s.imgwrapper}>
-                          <img src="./images/organiser-yanyan.jpg" alt="VP(Operations)" width="80" height="80" className="img-circle"></img>
+                          <img src="./images/organiser-yanyan.jpg" alt="VP(Operations)" width="80" height="80" className={classNames(s.imgcircle, s.peopleimg)}></img>
                         </div>
                         <div className={s.textwrapper}>
                           <h4 className={s.organisername}>
@@ -116,7 +116,7 @@ class People extends Component {
                     <div className={s.organiser}>
                       <div className={s.organiserheader}>
                         <div className={s.imgwrapper}>
-                          <img src="./images/organiser-zx.jpg" alt="CFO" width="80" height="80" className="img-circle"></img>
+                          <img src="./images/organiser-zx.jpg" alt="CFO" width="80" height="80" className={classNames(s.imgcircle, s.peopleimg)}></img>
                         </div>
                         <div className={s.textwrapper}>
                           <h4 className={s.organisername}>
@@ -132,7 +132,7 @@ class People extends Component {
                     <div className={s.organiser}>
                       <div className={s.organiserheader}>
                         <div className={s.imgwrapper}>
-                          <img src="./images/organiser-fx.jpg" alt="VP(Marketing)" width="80" height="80" className="img-circle"></img>
+                          <img src="./images/organiser-fx.jpg" alt="VP(Marketing)" width="80" height="80" className={classNames(s.imgcircle, s.peopleimg)}></img>
                         </div>
                         <div className={s.textwrapper}>
                           <h4 className={s.organisername}>
@@ -156,7 +156,7 @@ class People extends Component {
                     <div className={s.organiser}>
                       <div className={s.organiserheader}>
                         <div className={s.imgwrapper}>
-                          <img src="./images/ceo_logo.png" alt="CFO" width="80" height="80" className="img-circle"></img>
+                          <img src="./images/ceo_logo.png" alt="CFO" width="80" height="80" className={classNames(s.imgcircle, s.peopleimg)}></img>
                         </div>
                         <div className={s.textwrapper}>
                           <h4 className={s.organisername}>
@@ -172,7 +172,7 @@ class People extends Component {
                     <div className={s.organiser}>
                       <div className={s.organiserheader}>
                         <div className={s.imgwrapper}>
-                          <img src="./images/ceo_logo.png" alt="VP(Marketing)" width="80" height="80" className="img-circle"></img>
+                          <img src="./images/ceo_logo.png" alt="VP(Marketing)" width="80" height="80" className={classNames(s.imgcircle, s.peopleimg)}></img>
                         </div>
                         <div className={s.textwrapper}>
                           <h4 className={s.organisername}>
@@ -188,7 +188,7 @@ class People extends Component {
                     <div className={s.organiser}>
                       <div className={s.organiserheader}>
                         <div className={s.imgwrapper}>
-                          <img src="./images/ceo_logo.png" alt="VP(Operations)" width="80" height="80" className="img-circle"></img>
+                          <img src="./images/ceo_logo.png" alt="VP(Operations)" width="80" height="80" className={classNames(s.imgcircle, s.peopleimg)}></img>
                         </div>
                         <div className={s.textwrapper}>
                           <h4 className={s.organisername}>
@@ -211,7 +211,7 @@ class People extends Component {
                     <div className={s.organiser}>
                       <div className={s.organiserheader}>
                         <div className={s.imgwrappe}>
-                          <img src="./images/ceo_logo.png" alt="CFO" width="80" height="80" className="img-circle"></img>
+                          <img src="./images/ceo_logo.png" alt="CFO" width="80" height="80" className={classNames(s.imgcircle, s.peopleimg)}></img>
                         </div>
                         <div className={s.textwrapper}>
                           <h4 className={s.organisername}>
@@ -227,7 +227,7 @@ class People extends Component {
                     <div className={s.organiser}>
                       <div className={s.organiserheader}>
                         <div className={s.imgwrappe}>
-                          <img src="./images/ceo_logo.png" alt="VP(Marketing)" width="80" height="80" className="img-circle"></img>
+                          <img src="./images/ceo_logo.png" alt="VP(Marketing)" width="80" height="80" className={classNames(s.imgcircle, s.peopleimg)}></img>
                         </div>
                         <div className={s.textwrapper}>
                           <h4 className={s.organisername}>
@@ -243,7 +243,7 @@ class People extends Component {
                     <div className={s.organiser}>
                       <div className={s.organiserheader}>
                         <div className={s.imgwrappe}>
-                          <img src="./images/ceo_logo.png" alt="VP(Operations)" width="80" height="80" className="img-circle"></img>
+                          <img src="./images/ceo_logo.png" alt="VP(Operations)" width="80" height="80" className={classNames(s.imgcircle, s.peopleimg)}></img>
                         </div>
                         <div className={s.textwrapper}>
                           <h4 class={s.organisername}>
