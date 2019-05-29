@@ -34,7 +34,7 @@ class People extends Component {
                         </div>
                         <div className={s.textwrapper}>
                           <h4 className={s.organiser_name}>
-                              <a href="" target="_blank">谢天宇</a>
+                              <a href="www.google.com" target="_blank">谢天宇</a>
                           </h4>
                           <p class={s.organisertwitter}>人类学博士</p>
                           <p class="mv-o">Co-President</p>
