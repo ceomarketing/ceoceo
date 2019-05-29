@@ -17,20 +17,20 @@ class Footer extends Component {
                 <div className={s.imgrow1} src="./images/">
                   <div className={s.item1}></div>
                   <div id="item2">
-                    <img src="./images/linkedin.png" width="100%" className={s.item2}></img>
+                    <img src="./images/linkedin.png" width="40px" className={s.item2}></img>
                   </div>
                 </div>
                 <div className={s.imgrow2}>
                   <div id="item3">
-                    <img src="./images/facebook.png" width="100%" className={s.item3}></img>
+                    <img src="./images/facebook.png" width="40px" className={s.item3}></img>
                   </div>
                   <div id="item4">
-                    <img src="./images/gmail.png" width="100%" className={s.item4}></img>
+                    <img src="./images/gmail.png" width="40px" className={s.item4}></img>
                   </div>
                 </div>
               </div>
               <div className={classNames(s.imgright)}>
-                <img className={classNames(s.wechat)} src="./images/wechat.jpg" width="80" height="80"></img>
+                <img className={classNames(s.wechat)} src="./images/wechat.jpg" width="100px" height="100px"></img>
               </div>
             </div>
         </div>
